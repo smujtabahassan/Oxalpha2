@@ -1,5 +1,6 @@
 import React from "react";
-import tether from "../../assets/Cards/tether.svg";
+import Tether from "../../assets/Cards/tether.svg";
+// import Tether from "../../assets/Cards/tether.svg";
 import Btc from "../../assets/Cards/Uniswap.svg";
 import graph1 from "../../assets/Cards/graph1.svg";
 import { FaStar } from "react-icons/fa6";
@@ -11,7 +12,7 @@ const Trx = () => {
     {
       id: 1,
       idItem: "1",
-      img: tether,
+      img: Tether,
       text: "Tether",
       currency: "USDT",
       price: "$1.00",
@@ -37,7 +38,7 @@ const Trx = () => {
     {
       id: 1,
       idItem: "1",
-      img: tether,
+      img: Tether,
       text: "Tether",
       currency: "USDT",
       price: "$1.00",
@@ -50,7 +51,7 @@ const Trx = () => {
     {
       id: 1,
       idItem: "1",
-      img: tether,
+      img: Tether,
       text: "Tether",
       currency: "USDT",
       price: "$1.00",
