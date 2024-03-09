@@ -5,7 +5,7 @@ function App() {
     <div className="text-[#fff] bg-[#000] h-auto  ">
 <LandingPage/>
       <DashboardHome />
-      {/* <Profile /> */}
+      <Profile />
       <NftGallery />
     </div>
   );
