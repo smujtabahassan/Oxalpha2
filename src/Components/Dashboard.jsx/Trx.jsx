@@ -1,6 +1,6 @@
 import React from "react";
-import Tether from "../../assets/Cards/tether.svg";
-// import Tether from "../../assets/Cards/tether.svg";
+// import Tether from "../../../src/assets/Cards/tether.svg";
+import Tether from "../../assets/Cards/Tether.svg";
 import Btc from "../../assets/Cards/Uniswap.svg";
 import graph1 from "../../assets/Cards/graph1.svg";
 import { FaStar } from "react-icons/fa6";
