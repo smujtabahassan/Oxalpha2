@@ -1,0 +1,42 @@
+.Landing{
+    margin: 0;
+        padding: 0;
+    font-family: 'Orbitron', sans-serif;
+        font-optical-sizing: auto;
+        color: white;
+        background: url("./assets/bgimg.png")   ;
+        background-position: cover;
+        background-attachment:fixed;
+        height: fit-content;
+        background-size:10% 100%;
+        
+    }
+    header{
+    
+        box-shadow:0 4px 6px rgba(159, 248, 166, 0.8);
+    }
+    .cards{
+    opacity: 10px;
+    
+    }
+    .star{
+    width:auto;
+    height: auto;
+    margin: auto;
+    top: 100px;
+    
+    }
+    .imgcards{
+        background: url("./assets/cards.svg");
+        background-repeat: no-repeat;
+       background-size: 200px 150px;
+    
+    }
+    
+    .mainstar{
+    background: url("./assets/star.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 800px
+    }
+    
