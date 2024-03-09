@@ -3,7 +3,7 @@ import "../Landing.css";
 
 import { PicCardss } from "../Components/PicCardss";
 import { CounterPopu } from "../Components/CounterPopu";
-
+import mainImage from "../assets/heroo2.png";
 import auditcard from "../assets/Main.svg";
 import cardheadings from "../assets/Key Features.svg";
 import carddesign from "../assets/cards.svg";
@@ -105,7 +105,7 @@ const LandingPage = () => {
 </nav>
 </header>
 <main className="relative w-full  opacity-90">
-<img src="/src/assets/heroo2.png" alt="here" />
+<img src={mainImage} alt="here" />
 <button
   className=" bg-green-500 shadow-lg shadow-green-500/30  font-bold absolute lg:left-[90px] 
 left-[49px] md:left-[49px] left-[15px] sm:left-[38px]  smm:left-[35px] left-[20px] rounded-xl  md:w-[200px] w-[120px] lg:h-[60px] h-[40px]  
