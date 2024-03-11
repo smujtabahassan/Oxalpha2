@@ -163,7 +163,7 @@ export const NftTrending = () => {
 
   
     
-                
+  
                 </>
 
               )

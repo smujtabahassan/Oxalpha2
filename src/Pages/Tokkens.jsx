@@ -5,8 +5,11 @@ import {
     SideNav,
     Trx,
   } from "../Components/index";
+import  { TokkensCards } from "../Components/TokkensCards";
+import "../Landing.css";
 
   import { MdMenu } from "react-icons/md";
+import { TrendingGifs } from '../Components/TrendingGifs';
 
 
 export const Tokkens = () => {
@@ -16,25 +19,25 @@ export const Tokkens = () => {
       setShow(!show);
     }
   return (
-    <div>
-<DashBoarNav text={"Tokkens"} paragraph={"Updated on 23 may 2023"} />
+    <div className=' overflow-x-auto'> 
+<DashBoarNav text={"Tokens"} paragraph={"Updated on 23 may 2023"} />
       <div className="flex  gap-[1rem] py-[1rem]  ">
         <div className={`${show ? "block " : "hidden"}`}>
           <SideNav />
         </div>
-        <div className="overflow-x-auto ">
-          
+        <div className="Landing ">
+          <TokkensCards/>
           <div className="trendingnft ">
-          
+        <TrendingGifs/>
+        
           </div>
           <br />
-          <div className="mt-[100px]  ">
-          
-          </div>
-
-      <div className=" absolute gradient w-[515.236px] h-[615px] top-[8%] right-[-20%] "></div>
-
-        </div>
+          {/* <div className="mt-[100px]  ">
+          </div> */}
+{/* 
+      <div className=" absolute gradient w-[515.236px] h-[615px] top-[8%] right-[20%] "></div>
+*/}
+        </div> 
       </div>
       <div
         className=" absolute   right-5  top-[5%] text-[#fff] text-[24px] md:hidden block "

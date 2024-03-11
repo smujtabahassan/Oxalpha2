@@ -40,3 +40,15 @@
         background-size: 100% 800px
     }
     
+    .cards{
+        border-image: linear-gradient(105.82deg, #65E898 -4.89%, #1D3326 20.02%, #000000 78.88%, #44DD67 108.39%, #44DD68 121.13%);
+        border-image-slice: 1;
+      border-image-repeat: stretch;
+      border-width: 1px; 
+    }
+    .btngradient{
+    border-image: linear-gradient(105.82deg, #65E898 -4.89%, #1D3326 20.02%, #000000 78.88%, #44DD67 108.39%, #44DD68 121.13%);
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+    border-style: dotted; 
+}
