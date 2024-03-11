@@ -13,7 +13,7 @@ const DashBoarNav = ({ text, paragraph }) => {
 
   return (
     <div
-      className=" flex justify-around md:items-center items-start md:px-0 px-[2rem] shadow-2xl py-[1rem] md:flex-row flex-col gap-[2rem] md:bg-[#000] bg-[#272525]  "
+      className=" flex justify-around md:items-center items-start md:px-0 px-[2rem] shadow-2xl  py-[1rem] md:flex-row flex-col gap-[2rem] md:bg-[#000] bg-[#272525]  "
       style={{
         boxShadow: "0px 4px 9.3px 0px rgba(101, 232, 152, 0.50)",
       }}
@@ -48,7 +48,7 @@ const DashBoarNav = ({ text, paragraph }) => {
         <Btn
           text={"Connect Wallet"}
           style={
-            "text-[#D9D9D9] border-2 border-green-500 w-[187px] hover:bg-green-900 hover:text-[#fff]"
+            "text-[#D9D9D9] border-2 border-green-500 lg:w-[187px] w-[167px] hover:bg-green-900 hover:text-[#fff]"
           }
         />
         <img

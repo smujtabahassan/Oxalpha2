@@ -76,35 +76,36 @@ export const NftTrending = () => {
 ]
 
   return (
-    <div  >
-      <div className="flex flex-row justify-between mr-[70px] gap-[10%] ">
+    <div  className="">
+      <div className="grid lg:grid-cols-2 grid-cols-1 px-[30px] w-full  lg:gap-[10%] gap-[70%] md:h-auto  sm:py-[170px] py-[270px] ">
 
 
         <div className="relative flex flex-col w-[647px] h-[50px]  ">
           <div className="flex flex-row gap-[200px] justify-center">
-            <div className="flex flex-row gap-2">
-              <h1 className="text-[40px] left-[10px]">TRENDING NFTs</h1>
+            <div className="flex md:flex-row flex-col gap-2">
+              <h1 className="text-[40px] sm:left-[10px] left-[1px]">TRENDING NFTs</h1>
               <div className="text-green-500 text-[30px]">
                 <FaFire />
               </div>
             </div>
-            <p>
+            <p className=" ">
               Art <span className="text-[10px] w-[10px]">V</span>
             </p>
           </div>
           <br />
-
+         <div >
 
           <Slidercompo />
+          </div>
         </div>
 
 
-        <div className="Rare  hover:bg-slate-800/30  relative top-[57px] w-[645px] h-[269px]  border-2 border-green-400 rounded-2xl px-11 py-11 font-medium 	bg-black ">
+        <div className="Rare  hover:bg-slate-800/30  relative top-[57px] sm:w-[645px] w-[405px]   lg:none ml-[10px]  sm:h-[269px] h-[369px]  border-2 border-green-400 rounded-2xl px-11 py-11 font-medium 	bg-black ">
 
-          <div className=" flex flex-row justify-between items-center align-middle w-[485px]">
+          <div className=" flex md:flex-row flex-col justify-between items-center align-middle sm:w-[485px] w-[320px]">
 
             <div>
-              <h2 className=" text-[24px] max-w-[250.726px] ">
+              <h2 className=" text-[24px] max-w-[250.726px]  ">
                 Top Collections
               </h2>
             </div>
@@ -125,7 +126,7 @@ export const NftTrending = () => {
 
 
 
-          <div className="coins grid grid-cols-3 gap-2 w-[auto] ">
+          <div className="coins absolute grid sm:grid-cols-3 grid-cols-2 sm:gap-2  gap-0 w-[auto]  sm:left-[30px] left-[0px]">
 
 
 

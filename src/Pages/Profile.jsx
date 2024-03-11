@@ -10,7 +10,7 @@ const Profile = () => {
     setShow(!show);
   }
   return (
-    <div className="relative  ">
+    <div className="relative overflow-x-auto ">
       <DashBoarNav text={"Profile"} paragraph={"Updated on 23 may 2023"} />
       <div className="flex gap-[1rem] py-[1rem]  ">
         <div className={`${show ? "block " : "hidden"}`}>

@@ -59,7 +59,7 @@ const SideNav = () => {
         })}
       </ul>
 
-      <div className=" absolute bottom-8 left-[50px] flex flex-col gap-[1rem]  ">
+      <div className=" absolute bottom-8 lg:left-[50px] left-[5px] flex flex-col gap-[1rem]  ">
         <div className="flex   ">
           <p className="flex gap-x-[0.5rem] text-[16px] font-semibold rounded-lg hover:border-[0.5px] hover:border-green-500 hover:bg-gray-800 shadow-md py-[0.8rem] px-[2rem] transition-all ease-linear delay-150  items-center">
             <IoSettingsOutline className="text-[24px] " /> settings

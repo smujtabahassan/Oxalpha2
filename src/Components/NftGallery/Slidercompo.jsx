@@ -37,7 +37,7 @@ const Slidercompo = (props) => {
 
   return (
     <div className='custom-slider '>
-      <Slider {...settings} className='sldierslack w-[520px] h-[250px] mx-auto ml-[55px] py-[60px] p-12 ' >
+      <Slider {...settings} className='sldierslack  md:max-w-[520px] max-w-[340px] h-[250px]  mx-auto ml-[55px] py-[60px] p-12 ' >
         <div className='slider-item hover:scale-105 transition-all'>
           <h3><img src={cardsimg} alt="img" className='width-[400px] h-[180px]' /></h3>
         </div>
