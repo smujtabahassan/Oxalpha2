@@ -1,6 +1,9 @@
 import React from 'react'
 import Marks from "../assets/Cards/Marks.png";
 import Monkey from "../assets/Cards/Monkey.png";
+import SmokeyMonkey from "../assets/Cards/smokerMonkey.gif";
+import Badboy from "../assets/Cards/Boy.gif";
+
 import etheriuemIcons from "../assets/Cards/Eth_icon.svg";
 import Ellipse219 from "../assets/Coins/Ellipse_219.png";
 import Ellipse216 from "../assets/Coins/Ellipse_216.png";
@@ -9,12 +12,14 @@ import Ellipse221 from "../assets/Coins/Ellipse_221.png";
 import Ellipse222 from "../assets/Coins/Ellipse_222.png";
 import Ellipse223 from "../assets/Coins/Ellipse_223.png";
 import etheriumimg from "../assets/Coins/etherium.png";
+import Catgif from "../assets/Coins/monkeycraxy.gif"
 
 import Btn from './Btn';
 import { BsThreeDots } from "react-icons/bs";
 import "../Landing.css";
 import myProfile from "../assets/Cards/UserProfile.png";
 import { FaFire } from "react-icons/fa6";
+
 export const TrendingGifs= () => {
     let iconsimg = [{
 
@@ -79,7 +84,7 @@ const TrendingGif=[
 
     {
 id:2,
-img:Monkey,
+img:SmokeyMonkey,
 image:myProfile,
 name:"Moonfall",
 email:"By @JSmith",
@@ -92,7 +97,7 @@ amountdollar:"($ 654,874.86)"
 
     {
         id:2,
-        img:Monkey,
+        img:Badboy,
         image:myProfile,
         name:"Moonfall",
         email:"By @JSmith",
@@ -104,7 +109,7 @@ amountdollar:"($ 654,874.86)"
             },
             {
                 id:2,
-                img:Monkey,
+                img:Catgif,
                 image:myProfile,
                 name:"Moonfall",
                 email:"By @JSmith",
@@ -116,7 +121,7 @@ amountdollar:"($ 654,874.86)"
                     },
                     {
                         id:2,
-                        img:Monkey,
+                        img:Badboy,
                         image:myProfile,
                         name:"Moonfall",
                         email:"By @JSmith",
@@ -132,26 +137,34 @@ amountdollar:"($ 654,874.86)"
 ]
 
 
+const SideCard=[{
+    Title:"Ebony ",
+    number:"#2775",
+    eth:"10.15 ETH",
+    ethno:"1/1",
+    weight:"Highest bid 5 WEIGHT",
+    }]
+
     return (
 <div>
 
 <div className='mt-[20px] text-[36px] font-sans font-semibold'><h1>Trending NFTS</h1></div>
 
 
-        <div className='flex w-[100%] md:flex-row flex-col md:gap-[2rem] gap-[1rem] mt-[20px]'>
+        <div className='flex w-[100%]  md:flex-row flex-col md:gap-[2rem] gap-[1rem] mt-[20px] px-[10px]'>
 
 
        {TrendingGif.map(({id , img,image, name ,email , sale , ethicon, eth , amountdollar} , index) =>{
         
-    return    <div className='cards flex flex-col  relative  border md:w-[auto] h-[auto] border-2 rounded-lg gap-[0.5rem] p-2 transition-all ease-linear delay-150 md:hover:scale-105 w-[90%] mx-auto' key={index} >
+    return    <div className='cardsgift flex flex-col  relative  border border-2  md:w-[auto] h-[auto]  rounded-xl gap-[0.5rem] p-2 transition-all ease-linear delay-150 md:hover:scale-105 w-[90%] mx-auto' key={index} >
 
 
          <div className='flex flex-row items-center justify-around gap-[2rem] '>
 
 
-         <div className='px-[5px]'>
+         <div className='px-[5px] '>
 
-<img src={img} alt="etheriuemIcons" />
+<img src={img} alt="etheriuemIcons" className='rounded-xl w-[90%] max-h-[270px] ' />
 
 </div>
 
@@ -200,9 +213,9 @@ amountdollar:"($ 654,874.86)"
 </div>
 
 
-<div className='relative flex flex-row   w-auto '>
+<div className='relative flex flex-row   w-[auto]  '>
 
-<img src={ethicon} alt="" />
+<img src={ethicon} alt="" className=''/>
 
 <p className='text-[10px] mr-[40px]'> {eth}</p>
 
@@ -283,7 +296,7 @@ amountdollar:"($ 654,874.86)"
               return (
 
                 <> 
-             <div  className="flex flex-col w-[200.726px] gap-2 hover:scale-105 transition-all" >  
+             <div  className=" flex flex-col w-[200.726px] gap-2 hover:scale-105 transition-all" >  
                   
                   <div className="flex flex-row  p-4">
                     <div>{v.id}</div>

@@ -10,6 +10,7 @@ import "../Landing.css";
 
   import { MdMenu } from "react-icons/md";
 import { TrendingGifs } from '../Components/TrendingGifs';
+import { SideCardRight } from '../Components/SideCardRight';
 
 
 export const Tokkens = () => {
@@ -25,19 +26,31 @@ export const Tokkens = () => {
         <div className={`${show ? "block " : "hidden"}`}>
           <SideNav />
         </div>
+
         <div className="Landing ">
           <TokkensCards/>
-          <div className="trendingnft ">
+
+
+        
+          <div className="trendingnft  ">
         <TrendingGifs/>
         
-          </div>
+<br /> 
+<SideCardRight/>
+
+
+         </div>
+          
           <br />
+
+          </div> 
+
+
           {/* <div className="mt-[100px]  ">
           </div> */}
 {/* 
       <div className=" absolute gradient w-[515.236px] h-[615px] top-[8%] right-[20%] "></div>
 */}
-        </div> 
       </div>
       <div
         className=" absolute   right-5  top-[5%] text-[#fff] text-[24px] md:hidden block "

@@ -57,62 +57,6 @@ export const TokkensCards = () => {
 
         },
     ]
-const TrendingGifs=[
-
-
-    {
-id:2,
-img:Monkey,
-image:Marks,
-name:"Moonfall",
-email:"By @JSmith",
-sale:"on sale",
-ethicon:etheriuemIcons,
-eth:"4.89 ETH",
-amountdollar:"($ 654,874.86)"
-
-    },
-
-    {
-        id:2,
-        img:Monkey,
-        image:Marks,
-        name:"Moonfall",
-        email:"By @JSmith",
-        sale:"on sale",
-        ethicon:etheriuemIcons,
-        eth:"4.89 ETH",
-        amountdollar:"($ 654,874.86)"
-        
-            },
-            {
-                id:2,
-                img:Monkey,
-                image:Marks,
-                name:"Moonfall",
-                email:"By @JSmith",
-                sale:"on sale",
-                ethicon:etheriuemIcons,
-                eth:"4.89 ETH",
-                amountdollar:"($ 654,874.86)"
-                
-                    },
-                    {
-                        id:2,
-                        img:Monkey,
-                        image:Marks,
-                        name:"Moonfall",
-                        email:"By @JSmith",
-                        sale:"on sale",
-                        ethicon:etheriuemIcons,
-                        eth:"4.89 ETH",
-                        amountdollar:"($ 654,874.86)"
-                        
-                            },
-                                                
-
-
-]
 
 
     return (
