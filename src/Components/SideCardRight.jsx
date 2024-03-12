@@ -59,7 +59,7 @@ email:"@Jadm2"
         weight:"Highest bid 5 WEIGHT",
         }]
   return (
-    <div className='flex md:flex-col flex-row  relative mr-5 '> 
+    <div className='flex md:flex-col flex-row  relative mr-5  '> 
 
 
 
@@ -70,7 +70,7 @@ email:"@Jadm2"
 
 return(
     
-    <div key={i} className='Rightcols relative  flex   flex-col justify-start  border border-2  float-end right-[-450px] top-[-1280px]    rounded-xl  px-3  ' 
+    <div key={i} className='Rightcols relative  flex   md:flex-col flex-row  justify-start  border border-2  float-end md:right-[-450px] right-[40px] md:top-[-1280px] bottom-[0px]   rounded-xl  px-3  ' 
     >
 {/*     
     //  <div key={i} className='Rightcols relative  flex   flex-col justify-start  border border-2  right-[-450px] top-[-1280px]    rounded-xl  px-3  ' 
