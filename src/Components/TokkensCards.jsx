@@ -1,7 +1,7 @@
 import React from 'react'
 import Marks from "../assets/Cards/Marks.png";
 import Monkey from "../assets/Cards/Monkey.png";
-import etheriuemIcons from "../assets/Cards/eth_icon.svg";
+import etheriuemIcons from "../assets/Cards/Eth_icon.svg";
 import Btn from './Btn';
 import { BsThreeDots } from "react-icons/bs";
 import "../Landing.css";
