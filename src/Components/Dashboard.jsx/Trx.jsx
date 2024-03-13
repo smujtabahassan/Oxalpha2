@@ -67,7 +67,7 @@ const Trx = () => {
     <div>
       {/* heading are here */}
 
-      <div className="my-[2rem]    w-[1550px]">
+      <div className="my-[2rem]    w-[auto] overflow-x-auto">
         <ul className=" rounded-[2px] py-[2rem] px-[1rem] grid grid-cols-12 items-center  mx-2 font-semibold shadow-2xl text-[12px] text-[#fff]  bg-gradient-to-r from-green-400 via-black to-green-400 w-[1500px] overflow-auto ">
           <li className=" col-span-5">Name</li>
           <li>Price</li>

@@ -6,7 +6,22 @@ import Btn from './Btn';
 import { BsThreeDots } from "react-icons/bs";
 import "../Landing.css";
 
+
+import Liveimg from "../assets/Cards/Liveauth.png"
+import Mainimg from "../assets/Cards/Rectangle 8.png"
+import daysleftimg from "../assets/Cards/3daysLeft.png"
+
 export const TokkensCards = () => {
+
+    const SideCard=[{
+        Title:"Ebony ",
+        number:"#2775",
+        eth:"10.15ETH",
+        ethno:"1/1",
+        weight:"Highest bid 5 WEIGHT",
+        }]
+  
+
     const cardData = [
         {
             id: 1,
@@ -63,7 +78,7 @@ export const TokkensCards = () => {
         <div className='flex w-[100%] md:flex-row flex-col md:gap-[2rem] gap-[1rem]'>
 
        {cardData.map(({id , image , heading , monkey , monkeyId , amount , bidHigest , bidEth} , index) =>{
-         return    <div className='cards flex flex-col  relative  border md:w-[auto] h-[auto] border-2 rounded-lg gap-[0.5rem] p-2 transition-all ease-linear delay-150 md:hover:scale-105 w-[90%] mx-auto' key={index} >
+         return   <div className='cards flex flex-col  relative  border md:w-[auto] h-[auto] border-2 rounded-lg gap-[0.5rem] p-2 transition-all ease-linear delay-150 md:hover:scale-105 w-[90%] mx-auto' key={index} >
 
 
          <div className='flex flex-row items-center justify-around gap-[2rem] '>
@@ -106,15 +121,60 @@ export const TokkensCards = () => {
          </div>
 
      </div>
-       })}
+
+
+       
+       })
+       
+ }
           
 
 
 
+ {SideCard.map((v,i)=>{
+
+return(
+    
+    <div key={i} className='Rightcols relative  flex   md:flex-col flex-row mt-4 justify-start  border border-2  float-end     rounded-xl  px-7 mr-3 hover:bg-gray-500/40 scale-190 transition-all '>
+
+
+<div className='flex   w-auto h-auto '>
+    
+<div className=' flex  absolute md:right-[100px]  mt-[-20px] '><img src={Liveimg} className='w-[260px] h-[70px]' alt="liveimg" /></div>
+    
+    <img src={Mainimg} alt="liveimg" />
+    
+    <div className='flex absolute md:top-[310px] top-[350px]  '>
+    <img src={daysleftimg} alt="liveimg" className='w-[220px] h-[45px] ' /></div>
+
+    </div>
+
+<div className='flex flex-col font-mono  w-auto  md:mt-1 mt-14'>
+    <div ><h1 className='font-extrabold'>{v.Title}{v.number} </h1>
+    <p>{v.eth} {v.ethno}</p>
+    <h3 className='text-green-400'>{v.weight}</h3>
+    </div>
+
+    <div className='flex justify-end py-2 mr-1 '><Btn text={"Buy Now"} style={"w-[35%] border-green-500 h-[2%] hover:scale-140 transition-all "}/></div>
+    </div>
+    </div>
+
+)
+
+})
+
+}
 
 
 
 
         </div>
+
+
+
+
+
+
+
     )
 }

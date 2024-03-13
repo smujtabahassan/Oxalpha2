@@ -44,7 +44,7 @@ const SideNav = () => {
     },
   ];
   return (
-    <div className=" relative h-[1000px] md:w-[340px] w-[150px] rounded-[20px]  border-2 border-green-400 bg-black shadow-2xl hover:bg-[#131212] cursor-pointer transition-all ease-in-out delay-150 flex items-center flex-col py-[2rem] ">
+    <div className=" relative  h-[1000px] md:w-[340px] w-[150px] rounded-[20px]  border-2 border-green-400 bg-black shadow-2xl hover:bg-[#131212] cursor-pointer transition-all ease-in-out delay-150 flex items-center flex-col py-[2rem] ">
       <ul className="flex flex-col gap-[2rem]">
         {sideNavLinks.map(({ id, text, iconImage }) => {
           return (

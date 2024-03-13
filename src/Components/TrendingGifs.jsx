@@ -14,6 +14,12 @@ import Ellipse223 from "../assets/Coins/Ellipse_223.png";
 import etheriumimg from "../assets/Coins/etherium.png";
 import Catgif from "../assets/Coins/monkeycraxy.gif"
 
+
+import Ellipse213 from "../assets/Coins/Ellipse_213.png";
+import Ellipse214 from "../assets/Coins/Ellipse_214.png";
+import Ellipse215 from "../assets/Coins/Ellipse_215.png";
+import Ellipse234 from "../assets/Coins/Ellipse_234.png";
+
 import Btn from './Btn';
 import { BsThreeDots } from "react-icons/bs";
 import "../Landing.css";
@@ -79,6 +85,45 @@ export const TrendingGifs= () => {
     
     ]
  
+    const TopCreators=[{
+
+      id: "#1",
+      card1: Ellipse213,
+     name: "Crown's Diary",
+      email: "@Felixeffect",
+      
+    },
+    {
+  
+      id: "#1",
+      card1: Ellipse214,
+     name: "Cinderella",
+      email: "@Pharm",
+      
+    
+  
+  
+  },
+  {
+  
+      id: "#1",
+      card1: Ellipse215,
+     name: "Leinard Studio",
+      email: "@Leinard",
+      
+    },{
+  
+      id: "#1",
+      card1: Ellipse234,
+     name: "Joe Adamu",
+  email:"@Jadm2"
+  
+  
+  },
+  
+  
+  
+  ]
 const TrendingGif=[
 
 
@@ -151,7 +196,7 @@ const SideCard=[{
 <div className='mt-[20px] text-[36px] font-sans font-semibold'><h1>Trending NFTS</h1></div>
 
 
-        <div className='flex w-[100%]  md:flex-row flex-col md:gap-[2rem] gap-[1rem] mt-[20px] px-[10px]'>
+        <div className='flex w-[100%]  md:flex-row flex-col md:gap-[2rem] gap-[6rem] mt-[20px] px-[10px] md:ml-auto ml-[100px]'>
 
 
        {TrendingGif.map(({id , img,image, name ,email , sale , ethicon, eth , amountdollar} , index) =>{
@@ -172,7 +217,7 @@ const SideCard=[{
          </div>
          
 
-         <div className='flex relative flex-row   my-[1rem]'> 
+         <div className='flex relative flex-row   my-[2rem]'> 
              <div className='  w-[25px] h-[20px]  mx-[2px] '>
                  <img src={image} alt="marks" className='' />
              </div>
@@ -253,7 +298,61 @@ const SideCard=[{
 
 
 
+          <div className='Rightcols  p-4 flex flex-col  font-serif   w-[750px] h-auto md:max-w-[633px] max-w-[533px] rounded-xl  relative float-end border border-2   rounded-xl  px-3 backdrop-blur-xl hover:bg-gray-500/40 scale-190 transition-all'>
 
+<div className='flex flex-row justify-between '>
+<h1 className='text-[24px] font-semibold py-2'>Top Creators</h1>
+<h3>See more</h3>
+</div>
+
+
+
+
+<div className='grid grid-col-2 gap-4 '>
+
+{TopCreators.map((v,i)=>{
+return(
+
+    <div key={i}  >
+
+
+<div className='relative gap-2 '>
+
+<div className='  flex flex-row justify-between py-[18px]'>
+
+<div>
+<img src={v.card1} alt="" className='w-[50px] h-[50px]   ' />
+<h2 className=' absolute indent-8 top-[30px]  left-[19px]'>{v.name}</h2>
+<p className='absolute indent-12  left-[11px] text-gray-500'>{v.email}</p>
+</div>
+
+
+
+
+<div className=''>
+    <Btn text={"Follow"} style={"w-[160px] h-[10px] bg-gradient-to-r from-green-400 via-green-500 to-green-600 bg-opacity-20 rounded-lg shadow-md backdrop-blur-5 border border-green-400 border-opacity-30  "} />
+</div>
+
+</div>
+    
+
+</div>
+</div>
+
+
+
+)
+
+
+
+})
+
+
+
+}
+</div>
+
+</div>
 
 
 

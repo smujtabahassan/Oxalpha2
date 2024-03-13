@@ -13,7 +13,7 @@ const DashBoarNav = ({ text, paragraph }) => {
 
   return (
     <div
-      className=" flex justify-around md:items-center items-start md:px-0 px-[2rem] shadow-2xl  py-[1rem] md:flex-row flex-col gap-[2rem] md:bg-[#000] bg-[#272525]  "
+      className="w-full flex justify-around md:items-center items-start md:px-0 px-[2rem] shadow-2xl  py-[1rem] md:flex-row flex-col gap-[2rem] md:bg-[#000] bg-[#272525]  "
       style={{
         boxShadow: "0px 4px 9.3px 0px rgba(101, 232, 152, 0.50)",
       }}
@@ -44,7 +44,7 @@ const DashBoarNav = ({ text, paragraph }) => {
         <Btn text={"History"} style={"w-[100px]"} />
       </div>
 
-      <div className={`${show ? "block relative" : "hidden"}`}>
+      <div className={`${show ? "block relative" : "hidden"}  `}>
         <Btn
           text={"Connect Wallet"}
           style={

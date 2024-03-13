@@ -70,7 +70,7 @@ email:"@Jadm2"
 
 return(
     
-    <div key={i} className='Rightcols relative  flex   md:flex-col flex-row  justify-start  border border-2  float-end md:right-[-450px] right-[40px] md:top-[-1280px] bottom-[0px]   rounded-xl  px-3  ' 
+    <div key={i} className='Rightcols relative  flex   md:flex-col flex-row  justify-start  border border-2  float-end md:right-[-450px] right-[-70px] md:top-[-1280px] bottom-[-60px]   rounded-xl  px-3  ' 
     >
 {/*     
     //  <div key={i} className='Rightcols relative  flex   flex-col justify-start  border border-2  right-[-450px] top-[-1280px]    rounded-xl  px-3  ' 
@@ -78,7 +78,7 @@ return(
 
 <div className='flex   w-[380px] h-[291px] '>
     
-<div className=' flex  absolute right-[70px]  mt-[-20px] '><img src={Liveimg} className='w-[260px] h-[70px]' alt="liveimg" /></div>
+<div className=' flex  absolute right-[80px]  mt-[-20px] '><img src={Liveimg} className='w-[260px] h-[70px]' alt="liveimg" /></div>
     
     <img src={Mainimg} alt="liveimg" />
     
@@ -87,7 +87,7 @@ return(
 
     </div>
 
-<div className='flex flex-col font-mono  w-auto  mt-2'>
+<div className='flex flex-col font-mono  w-auto  md:mt-2 mt-14'>
     <div ><h1 className='font-extrabold'>{v.Title}{v.number} </h1>
     <p>{v.eth} {v.ethno}</p>
     <h3 className='text-green-400'>{v.weight}</h3>
@@ -196,7 +196,7 @@ return(
 
 </div> */}
 
-<div className='Rightcols p-4 flex flex-col font-serif  w-auto h-auto max-w-[503px] rounded-xl  relative float-end border border-2   rounded-xl right-[-1520px] top-[-1180px] px-3 backdrop-blur-xl'>
+<div className='Rightcols  p-4 flex flex-col  font-serif  md:w-auto w-[800px] h-auto md:max-w-[433px] max-w-[533px] rounded-xl  relative float-end border border-2   rounded-xl md:right-[-1170px] right-[400px] md:top-[-1180px] top-[390px] px-3 backdrop-blur-xl'>
 
 <div className='flex flex-row justify-between '>
 <h1 className='text-[24px] font-semibold py-2'>Top Creators</h1>

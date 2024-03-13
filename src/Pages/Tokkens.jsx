@@ -36,7 +36,7 @@ export const Tokkens = () => {
         <TrendingGifs/>
         
 <br /> 
-<SideCardRight/>
+{/* <SideCardRight/> */}
 
 
          </div>

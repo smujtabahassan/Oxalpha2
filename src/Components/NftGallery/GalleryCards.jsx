@@ -13,7 +13,7 @@ const GalleryCards = () => {
         <img
           src={cardimg}
           alt="rare_card"
-          className="z-[150px] lg:max-w-[370.726px] sm:max-w-[200.726px] max-w-[130.726px]  h-[308.78px] absolute sm:right-[-75px] mx-auto sm:top-[-40px] top-[-10px] hover:scale-105 transition-all "
+          className="z-[150px] lg:max-w-[270.726px] sm:max-w-[200.726px] max-w-[130.726px]  h-[308.78px] absolute sm:right-[-75px] mx-auto sm:top-[-40px] top-[-10px] hover:scale-105 transition-all "
         />
         <img
           src={btnimgexpo}
