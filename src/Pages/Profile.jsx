@@ -4,7 +4,7 @@ import { Cards, DashBoarNav, SideNav, Trx } from "../Components/index";
 import { MdMenu } from "react-icons/md";
 
 const Profile = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   function toggle() {
     setShow(!show);
@@ -16,7 +16,7 @@ const Profile = () => {
         <div className={`${show ? "block " : "hidden"}`}>
           <SideNav />
         </div>
-        <div className="w-[100%]">
+        <div className="">
           <ProfileHeader />
           <ProfileCards />
           <div className="   ">

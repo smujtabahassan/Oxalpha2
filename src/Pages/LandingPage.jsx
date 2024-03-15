@@ -24,9 +24,9 @@ import { Parteners } from "../Components/Parteners";
 import { Star } from "../Components/Star";
 
 import { useState } from "react";
+import { DashoBoardHome } from '../Components/Dashboard.jsx/Data';
 
-
-
+import { Link } from 'react-router-dom'; 
 
 
 
@@ -99,10 +99,12 @@ const LandingPage = () => {
       </defs>
     </svg>
     <p className=" flex-grow-0 flex-shrink-0 text-base text-center  text-transparent bg-clip-text bg-gradient-to-r from-green-600 from-50%  via-green-700/100 to-green-600 to-80%    ">
-      <a href="LandingPage.jsx">Connect Wallet</a>
+      <Link to="/dashboardHome" className="link-to-dashboard">Connect Wallet</Link>
     </p>
   </div>
+
 </nav>
+
 </header>
 <main className="relative w-full  opacity-90">
 <img src={mainImage} alt="here" />

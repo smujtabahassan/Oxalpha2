@@ -1,20 +1,22 @@
 import React, { useState } from "react";
 import { Cards, DashBoarNav, SideNav, Trx } from "../Components/index";
 import { MdMenu } from "react-icons/md";
+import Layout from "../Layout";
 
 const DashboardHome = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   function toggle() {
     setShow(!show);
   }
   return (
-    <div className="relative   ">
+    <>
+    <div className="relative  overflow-x-auto  ">
       <DashBoarNav text={"Dashboard"} paragraph={"Updated on 23 may 2023"} />
       <div className="flex gap-[1rem] py-[1rem]  ">
         <div className={`${show ? "block" : "hidden"}`}>
           <SideNav />
-          app.
+          
         </div>
         <div className="w-[100%]">
           <Cards />
@@ -34,6 +36,9 @@ const DashboardHome = () => {
         )}
       </div>
     </div>
+
+    </>
+
   );
 };
 

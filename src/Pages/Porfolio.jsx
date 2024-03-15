@@ -10,7 +10,7 @@ import AnalyticCards from "../Components/AnalyticCards/AnalyticCards";
 import Chart from "../Components/Charts/Chart";
 import { Status } from "../Components/Status";
 import BalanceTrack from "../Components/BalancewithTracking"
-const History = () => {
+const Porfolio = () => {
   const [show, setShow] = useState(false);
 
   function toggle() {
@@ -48,4 +48,4 @@ const History = () => {
   );
 };
 
-export default History;
+export default Porfolio;

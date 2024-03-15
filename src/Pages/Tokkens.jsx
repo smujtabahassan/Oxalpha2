@@ -14,7 +14,7 @@ import { SideCardRight } from '../Components/SideCardRight';
 
 
 export const Tokkens = () => {
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
 
     function toggle() {
       setShow(!show);

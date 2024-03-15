@@ -3,7 +3,11 @@ import { IoSearch } from "react-icons/io5";
 import Btn from "../Btn";
 import { AiOutlineMenuFold } from "react-icons/ai";
 import { RxCross1 } from "react-icons/rx";
-
+import Analyticsgraph from "../../Pages/Analyticsgraph";
+import History from "../../Pages/History";
+import Porfolio from "../../Pages/Porfolio";
+import { DashboardHome } from "../../Pages";
+import { Link } from "react-router-dom";
 const DashBoarNav = ({ text, paragraph }) => {
   const [show, setShow] = useState(true);
 
@@ -39,13 +43,13 @@ const DashBoarNav = ({ text, paragraph }) => {
           show ? " block flex gap-[2rem] md:flex-row flex-col " : "hidden"
         }`}
       >
-        <Btn text={"Portfolio"} style={"w-[100px] "} />
-        <Btn text={"Analytics"} style={"w-[100px]"} />
-        <Btn text={"History"} style={"w-[100px]"} />
+      <Link to="/portfolio" >  <Btn text={"Portfolio"} style={"w-[100px] "} /></Link >
+      <Link to="/analytics"><Btn text={"Analytics"} style={"w-[100px]"} /></Link >
+      <Link to="/history"> <Btn text={"History"} style={"w-[100px]"} /></Link >
       </div>
 
       <div className={`${show ? "block relative" : "hidden"}  `}>
-        <Btn
+        <Link to="/"> <Btn
           text={"Connect Wallet"}
           style={
             "text-[#D9D9D9] border-2 border-green-500 lg:w-[187px] w-[167px] hover:bg-green-900 hover:text-[#fff]"
@@ -56,6 +60,8 @@ const DashBoarNav = ({ text, paragraph }) => {
           alt=""
           className=" absolute top-5 left-5"
         />
+
+</Link>
       </div>
       <div className="text-[24px] absolute top-5 right-5 md:hidden block">
         {!show ? (
