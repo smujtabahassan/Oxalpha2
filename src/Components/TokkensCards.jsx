@@ -144,7 +144,7 @@ return(
     
     <img src={Mainimg} alt="liveimg" />
     
-    <div className='flex absolute md:top-[310px] top-[350px]  '>
+    <div className='flex absolute md:top-[161px] top-[350px]  '>
     <img src={daysleftimg} alt="liveimg" className='w-[220px] h-[45px] ' /></div>
 
     </div>

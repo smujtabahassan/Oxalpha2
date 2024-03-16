@@ -68,7 +68,7 @@ const Trx = () => {
       {/* heading are here */}
 
       <div className="my-[2rem]    w-[auto] overflow-x-auto">
-        <ul className=" rounded-[2px] py-[2rem] px-[1rem] grid grid-cols-12 items-center  mx-2 font-semibold shadow-2xl text-[12px] text-[#fff]  bg-gradient-to-r from-green-400 via-black to-green-400 w-[1500px] overflow-auto ">
+        <ul className=" rounded-[2px] py-[2rem] px-[1rem] grid grid-cols-12 items-center  mx-2 font-semibold shadow-2xl text-[12px] text-[#fff]  bg-gradient-to-r from-green-400 via-black to-green-400 md:w-[97%] w-[1500px] overflow-auto ">
           <li className=" col-span-5">Name</li>
           <li>Price</li>
           <li>24H</li>
@@ -98,7 +98,7 @@ const Trx = () => {
             ) => {
               return (
                 <div
-                  className=" border-[1px] border-[#2DC24E] rounded-[2px] py-[1.4rem] px-[1rem] grid grid-cols-12 items-center  mx-2 font-semibold shadow-2xl hover:text-[#2DC24E] cursor-pointer text-[12px]   transition-all ease-linear delay-150   w-[1500px] overflow-auto"
+                  className=" border-[1px] border-[#2DC24E] rounded-[2px] py-[1.4rem] px-[1rem] grid grid-cols-12 items-center  mx-2 font-semibold shadow-2xl hover:text-[#2DC24E] cursor-pointer text-[12px]   transition-all ease-linear delay-150 md:w-[97%]   w-[1500px] overflow-auto"
                   key={index}
                 >
                   <li className=" col-span-5 flex gap-[1rem] items-center">

@@ -5,8 +5,8 @@ import btnimgtry from "../../assets/Cards/picbtn_try.png";
 import Cards from "../Dashboard.jsx/Cards";
 const GalleryCards = () => {
   return (
-    <div className=" flex md:flex-row flex-col gap-[6rem]  sm:w-[1300px]w-[13px]   py-20 overflow-x-auto ">
-      <div className="Rare relative top-11 flex flex-row   sm:w-[593px] w-[230px] sm:none mx-auto h-[269px]  border-2 border-green-400 rounded-2xl px-11 py-11 font-medium 	bg-black hover:bg-slate-800/30">
+    <div className=" flex md:flex-row flex-col gap-[6rem]  md:w-[1200px] w-[723px]   py-20 overflow-x-auto ">
+      <div className="Rare relative top-11 flex flex-row   lg:w-[593px] w-[230px] sm:none mx-auto h-[269px]  border-2 border-green-400 rounded-2xl px-11 py-11 font-medium 	bg-black hover:bg-slate-800/30">
         <h2 className="  xl:text-[36px] text-[13px] xl:max-w-[250.726px] max-w-[125.726px] bg-clip-text  text-transparent bg-gradient-to-r from-green-500 to-green-300">
           COLLECT RARE NFT HERE
         </h2>
@@ -22,12 +22,12 @@ const GalleryCards = () => {
         />
       </div>
 
-      <div className="Rare relative top-11 flex flex-row  sm:w-[600px] w-[230px] h-[269px] sm:none mx-auto border-2 border-green-400 rounded-2xl px-11 py-11 font-medium	bg-black hover:bg-slate-800/30">
+      <div className="Rare relative top-11 flex flex-row  lg:w-[600px] w-[330px] h-[269px] sm:none mx-auto border-2 border-green-400 rounded-2xl px-11 py-11 font-medium	bg-black hover:bg-slate-800/30">
       
         <img
           src={btnimgtry}
           alt="expobtn"
-          className=" absolute  lg:max-w-[281px] max-w-[130.726px] lg:h-[270px] h-[125px] lg:bottom-[30px]  md:bottom-[120px] bottom-[32px] cursor-pointer hover:scale-90 transition-all"
+          className=" absolute  lg:max-w-[281px] max-w-[130.726px] lg:h-[270px] h-[125px] lg:bottom-[30px]  md:bottom-[120px] bottom-[130px] cursor-pointer hover:scale-90 transition-all"
         />
 
         <p className="absolute  top-3 sm:text-[25px] text-[13px] w-[160px] h-[36px] bg-clip-text  text-transparent bg-gradient-to-r from-white to-green-300 xl:right-[80px] right-[1px] ">

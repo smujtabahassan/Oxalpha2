@@ -44,7 +44,7 @@ const BalancewithTracking = () => {
 <div className="flex relative  gap-4"><BiEditAlt className="absolute top-[15px] left-3"/>
 <Btn  text={"Edit"}  style={"w-[90px] h-[50px]"}/></div>
 
-        <Btn text={"+ Add transaction"} style={"w-[201px] h-[50px] bg-green-500 text-[20px] text-black font-semibold"} />
+        <Btn text={"+ Add transaction"} style={"w-[175px] h-[50px] bg-green-500 text-[20px] text-black font-semibold"} />
      
       </div>
 
@@ -77,7 +77,7 @@ const BalancewithTracking = () => {
         <Btn text={"Statistics"} style={"w-[150px] rounded-[30px]"} />
       </div>
 <div className="flex mt-[20px]">
-<img src={Trackline} alt="" className="left-[-10px] max-w-[1450px] mx-auto w-auto"/>
+<img src={Trackline} alt="" className="left-[-10px]  md:max-w-[1350px] max-w-[auto] mx-auto w-auto"/>
 </div> 
     </div>
   );

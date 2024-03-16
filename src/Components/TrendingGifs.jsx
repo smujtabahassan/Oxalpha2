@@ -298,7 +298,7 @@ const SideCard=[{
 
 
 
-          <div className='Rightcols  p-4 flex flex-col  font-serif   w-[750px] h-auto md:max-w-[633px] max-w-[533px] rounded-xl  relative float-end border border-2   rounded-xl  px-3 backdrop-blur-xl hover:bg-gray-500/40 scale-190 transition-all'>
+          <div className='Rightcols  p-4 flex flex-col  font-serif   w-[750px] h-auto md:max-w-[328px] max-w-[533px] rounded-xl  relative float-end border border-2   rounded-xl  px-3 backdrop-blur-xl hover:bg-gray-500/40 scale-190 transition-all'>
 
 <div className='flex flex-row justify-between '>
 <h1 className='text-[24px] font-semibold py-2'>Top Creators</h1>
@@ -330,7 +330,7 @@ return(
 
 
 <div className=''>
-    <Btn text={"Follow"} style={"w-[160px] h-[10px] bg-gradient-to-r from-green-400 via-green-500 to-green-600 bg-opacity-20 rounded-lg shadow-md backdrop-blur-5 border border-green-400 border-opacity-30  "} />
+    <Btn text={"Follow"} style={"w-[60px] h-[10px] bg-gradient-to-r from-green-400 via-green-500 to-green-600 bg-opacity-20 rounded-lg shadow-md backdrop-blur-5 border border-green-400 border-opacity-30  "} />
 </div>
 
 </div>

@@ -133,13 +133,13 @@ const Cards = () => {
   return (
     <>
       <div className="flex md:flex-row flex-col gap-[1rem]">
-        <div className=" md:grid-cols-8 col-span-12 ">
+        <div className=" md:grid-cols-8 col-span-12   w-[80%] ">
           <div className=" flex gap-[3rem] md:flex-row flex-col  ">
             {TrandingCard.map(({ id, image, text, lists }) => {
               return (
                 <div
                   key={id}
-                  className=" rounded-[34px] border-[1px] border-[#000] bg-[#151718] p-[16px] filter drop-shadow-md md:w-[500px] w-[95%] h-[300px] px-[0.5rem] hover:text-green-500 transition-all ease-linear delay-150 cursor-pointer md:hover:scale-105 "
+                  className=" rounded-[34px] border-[1px] border-[#000] bg-[#151718] p-[16px] filter drop-shadow-md md:w-[100%] w-[95%] h-[300px] px-[0.5rem] hover:text-green-500 transition-all ease-linear delay-150 cursor-pointer md:hover:scale-105 "
                   style={{
                     filter:
                       "drop-shadow(0px 4px 16.1px rgba(101, 232, 152, 0.24))",
@@ -198,7 +198,7 @@ const Cards = () => {
             })}
           </div>
         </div>
-        <div className=" md:w-[470px] w-auto rounded-[20px] md:px-[1.5rem] px-[1rem] py-[0.5rem] bg-[#000] shadow-2xl hover:shadow border-[#2DC24E] border-[1px] cursor-pointer transition-all ease-linear delay-150 hover:bg-[#141414]   md:col-span-3 col-span-12 ">
+        <div className=" md:w-[50%] w-auto rounded-[20px] md:px-[1.5rem] px-[1rem] py-[0.5rem] bg-[#000] shadow-2xl hover:shadow border-[#2DC24E] border-[1px] cursor-pointer transition-all ease-linear delay-150 hover:bg-[#141414]   md:col-span-3 col-span-12 ">
           {History.map(({ id, heading, seeAll, trxHistory }, index) => {
             return (
               <div key={index}>
