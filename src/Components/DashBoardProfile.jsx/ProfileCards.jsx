@@ -40,13 +40,13 @@ const ProfileCards = () => {
   return (
     <div>
       <h2 className="text-[20px] font-semibold">Recent Activity</h2>
-      <div className=" flex md:flex-row flex-col justify-around gap-[1rem]">
+      <div className=" flex md:flex-row flex-col justify-around gap-[1rem] m-10">
         {cards.map(
           ({ id, image, heading, text, text1, bid, ETH, time }, index) => {
             return (
               <div
                 key={index}
-                className="md:w-[40%] w-[98%] mx-auto flex  justify-between py-[1rem] px-[1rem] my-[1rem] transition-all ease-in-out delay-250 items-center cursor-pointer hover:text-[#44DD68] bg-[rgba(0, 0, 0, 0.40)] hover:bg-[#292828]"
+                className="md:w-[40%] w-[30%]  flex  justify-between py-[1rem] px-[1rem] my-[1rem] transition-all ease-in-out delay-250 items-center cursor-pointer hover:text-[#44DD68] bg-[rgba(0, 0, 0, 0.40)] hover:bg-[#292828]"
                 style={{
                   borderRadius: "16px",
                   border: "2px solid var(--stroke-button, #44DD68)",
