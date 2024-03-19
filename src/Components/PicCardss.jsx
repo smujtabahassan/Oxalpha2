@@ -30,7 +30,7 @@ export const PicCardss = () => {
       imageSrc: robo3,
       title: "Stake $CGPT",
       description:
-        "Access your tier, unlock your multiplier, secure your allocations. Staking $CGPT will define your participation.",
+        "Access your tier, unlock your multiplier,secure your allocations. Staking $CGPT will define your participation.",
       btnPic: btnstake,
     },
     {
@@ -50,20 +50,21 @@ export const PicCardss = () => {
       {cards.map((data, i) => {
         return (
           <div key={i}>
-            <div className=" flex flex-col  items-center gap-5  ">
+            <div className=" flex flex-col  items-center gap-5 ">
               <img src={data.imageSrc} alt="hi" />
               <h1 className="text-2xl  ">{data.title}</h1>
-              <p className="font-sans w-[260px] text-[12px] ">
+              <p className="font-segoe-ui max-w-[260px] h-[85px]  text-[12px] font-semibold  ">
                 {data.description}
               </p>
 
-              <img
+             <img
                 src={data.btnPic}
                 alt="profile"
                 width="90%"
                 height="50%"
                 className=""
               />
+     
             </div>
           </div>
         );

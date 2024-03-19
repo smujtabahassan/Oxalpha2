@@ -58,10 +58,12 @@ const LandingPage = () => {
         : "hidden"
     }`}
   >
-    <li className="hover:text-green-400 ">Docs</li>
-    <li className="hover:text-green-400 ">Telegram</li>
-    <li className="hover:text-green-400 ">Twitter</li>
-    <li className="hover:text-green-400 ">Staking Dapp</li>
+    
+
+   <a href="https://web.telegram.org/">  <li className="hover:text-green-400 ">Docs</li></a>
+   <a href="https://web.telegram.org/" > <li className="hover:text-green-400 ">Telegram</li></a>
+   <a href="https://twitter.com/i/flow/signup" > <li className="hover:text-green-400 ">Twitter</li></a>
+   <a href="https://dappradar.com/" > <li className="hover:text-green-400 ">Staking Dapp</li></a>
   </ul>
 
   <div
@@ -109,10 +111,10 @@ const LandingPage = () => {
 <main className="relative w-full  opacity-90">
 <img src={mainImage} alt="here" />
 <button
-  className=" bg-green-500 shadow-lg shadow-green-500/30  font-bold absolute lg:left-[90px] 
-left-[49px] md:left-[49px] left-[15px] sm:left-[38px]  smm:left-[35px] left-[20px] rounded-xl  md:w-[200px] w-[120px] lg:h-[60px] h-[40px]  
- lg:top-[550px] top-[280px]  
- md:top-[280px]  sm:top-[250px]  top-[155px] smm:top-[210px]   bg-gradient-to-r from-green-600 from-10% via-white-500 to-green-600   transition duration-300 ease-out transform hover:scale-105  "
+  className=" bg-green-500 shadow-lg shadow-green-500/30  font-bold absolute lg:left-[100px] 
+ md:left-[49px]  sm:left-[38px]  smm:left-[35px] left-[20px] rounded-xl  md:w-[200px] w-[120px] lg:h-[60px] h-[40px]  
+ lg:top-[550px] 
+ md:top-[280px]  sm:top-[270px]   top-[130px]   bg-gradient-to-r from-green-600 from-10% via-white-500 to-green-600   transition duration-300 ease-out transform hover:scale-105  "
 >
   Try it now
 </button>
@@ -159,7 +161,6 @@ left-[49px] md:left-[49px] left-[15px] sm:left-[38px]  smm:left-[35px] left-[20p
   </p>
 </div>
 </footer>
-
 
 
     </div>

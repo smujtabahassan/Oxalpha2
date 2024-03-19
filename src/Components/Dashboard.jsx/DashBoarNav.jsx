@@ -8,7 +8,11 @@ import History from "../../Pages/History";
 import Porfolio from "../../Pages/Porfolio";
 import { DashboardHome } from "../../Pages";
 import { Link } from "react-router-dom";
+
 const DashBoarNav = ({ text, paragraph }) => {
+
+
+
   const [show, setShow] = useState(true);
 
   const handleToggle = () => {
@@ -32,7 +36,7 @@ const DashBoarNav = ({ text, paragraph }) => {
       <div className={`${show ? " block relative " : "hidden relative"}`}>
         <input
           type="text"
-          className="rounded-[30px] shadow-lg py-[1rem] px-[3.4rem] bg-transparent border-[0.5px] md:w-[300px] w-[100%]"
+          className=" rounded-[30px] shadow-lg py-[1rem] px-[3.4rem] bg-transparent border-[0.5px] md:w-[300px] w-[100%]"
           placeholder="Search your coin"
         />
 
@@ -44,12 +48,14 @@ const DashBoarNav = ({ text, paragraph }) => {
         }`}
       >
       <Link to="/portfolio" >  <Btn text={"Portfolio"} style={"w-[100px] "} /></Link >
-      <Link to="/analytics"><Btn text={"Analytics"} style={"w-[100px]"} /></Link >
+      <Link to="/analytics"><Btn text={"Analytics"} style={"w-[100px] "} /></Link >
       <Link to="/history"> <Btn text={"History"} style={"w-[100px]"} /></Link >
       </div>
 
       <div className={`${show ? "block relative" : "hidden"}  `}>
-        <Link to="/"> <Btn
+        <Link to="/">
+          
+           <Btn
           text={"Connect Wallet"}
           style={
             "text-[#D9D9D9] border-2 border-green-500 lg:w-[187px] w-[167px] hover:bg-green-900 hover:text-[#fff]"

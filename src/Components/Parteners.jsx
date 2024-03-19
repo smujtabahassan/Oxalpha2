@@ -11,26 +11,26 @@ export const Parteners = () => {
     <div>
       <div className="parteners relative  flex flex-col   items-center gap-10 z-10 bg-gradient-to-r from-green-950/30 from-1% via-black via-90% to-green-950 to-1% opacity-95  sm:p-12 p-1 w-auto ">
         <h2 className="text-[38px] text-green-500">Partners</h2>
-        <div className=" flex flex-row border-1 rounded-2xl  align-middle items-center justify-center gap-6 bg-gradient-to-r from-green-600 to-gray-800  bg-opacity-50 sm:p-10 p-1  hover:scale-105 ">
-          <div className="web3  ">
+        <div className=" flex flex-row border-1 rounded-2xl  align-middle items-center justify-center gap-6 bg-gradient-to-r from-green-600 to-gray-800  bg-opacity-50 sm:p-10 p-1   ">
+          <div className="web3 cursor-pointer hover:scale-110 transition-all  ">
             <img src={web3} alt="web3" />
           </div>
-          <div className="solana">
+          <div className="solana cursor-pointer hover:scale-110 transition-all "  >
             <img src={solana} alt="solana" />
           </div>
-          <div className="metamask">
+          <div className="metamask cursor-pointer hover:scale-110 transition-all">
             <img src={meta} alt="meta" />
           </div>
-          <div className="sem">
+          <div className="sem cursor-pointer hover:scale-110 transition-all">
             <img src={designsem} alt="sem" />
           </div>
-          <div className="thinkdev">
+          <div className="thinkdev cursor-pointer hover:scale-110 transition-all">
             <img src={thinkdev} alt="thinkdev" />
           </div>
-          <div className="polygon">
+          <div className="polygon cursor-pointer hover:scale-110 transition-all">
             <img src={polygon} alt="polygon" />
           </div>
-          <div className="lachain">
+          <div className="lachain cursor-pointer hover:scale-110 transition-all">
             <img src={hexa} alt="hexachain" />
           </div>
         </div>

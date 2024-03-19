@@ -21,6 +21,7 @@ function App() {
             <Route path="/analytics" element={<Analyticsgraph />} />
             <Route path="/history" element={<History />} />
             <Route path="/portfolio" element={<Porfolio />} />
+            
 
           {/* Add more routes for other pages if needed */}
         </Routes>

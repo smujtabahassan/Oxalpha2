@@ -18,7 +18,7 @@ export const Keyfeatures = () => {
     {
       head: "Precision",
       description:
-        " Operating based on predefined rules and conditions, reducing the need for constant monitoring by traders.",
+        "Operating based on predefined rules and conditions, reducing the need for constant monitoring by traders.",
 
       img: bgfeatures,
     },
@@ -58,7 +58,7 @@ export const Keyfeatures = () => {
                     <h1 className="lg:text-[30px] text-[25px] z-[999] font-semibold">
                       {v.head}
                     </h1>
-                    <p className="text-[10px] z-[999] text-justify">
+                    <p className="text-[10px]  text-justify">
                       {v.description}
                     </p>
                   </div>
