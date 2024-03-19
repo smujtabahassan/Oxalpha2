@@ -62,7 +62,7 @@ export const PicCardss = () => {
                 alt="profile"
                 width="90%"
                 height="50%"
-                className=""
+                className="cursor-pointer"
               />
      
             </div>

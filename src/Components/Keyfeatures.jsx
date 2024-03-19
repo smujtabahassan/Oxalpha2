@@ -6,7 +6,7 @@ export const Keyfeatures = () => {
     {
       head: "Speed",
       description:
-        "The ability to execute trades in milliseconds.Ability to work on ethereum is quick",
+        "The ability to execute trades in milliseconds.Ability to work on ethereum is quick.",
       img: bgfeatures,
     },
     {
@@ -58,7 +58,7 @@ export const Keyfeatures = () => {
                     <h1 className="lg:text-[30px] text-[25px] z-[999] font-semibold">
                       {v.head}
                     </h1>
-                    <p className="text-[10px]  text-justify">
+                    <p className="text-[10px]  text-justify  ">
                       {v.description}
                     </p>
                   </div>
