@@ -28,7 +28,7 @@ const DashboardHome = () => {
         </div>
       </div>
       <div
-        className=" absolute   right-5  top-[5%] text-[#fff] text-[24px] md:hidden block "
+        className=" absolute   right-5  top-[3%] text-[#fff] text-[24px] md:hidden block "
         onClick={change}
       >
         {!show ? (

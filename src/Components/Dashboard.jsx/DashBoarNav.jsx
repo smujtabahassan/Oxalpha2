@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IoSearch } from "react-icons/io5";
 import Btn from "../Btn";
-import { AiOutlineMenuFold } from "react-icons/ai";
+import { AiOutlineMenuFold,AiOutlineBell  } from "react-icons/ai";
 import { RxCross1 } from "react-icons/rx";
 import Analyticsgraph from "../../Pages/Analyticsgraph";
 import History from "../../Pages/History";
@@ -42,6 +42,13 @@ const DashBoarNav = ({ text, paragraph }) => {
 
         <IoSearch className="text-[24px] absolute top-4 left-5 " />
       </div>
+<div className={`${show ?"block" :"hidden" }`}>
+      <div className=" md:ml-0 ml-1 rounded-full border-2 border-white-400 md:w-[43px] w-[43px]  md:h-[43px] h-[43px]  flex items-center justify-center hover:border-[green] bg-border-green-500 hover:text-green-500 ">
+      <AiOutlineBell   className="relative size-5 hover:translate-x-[1px] scale-150   transition-all "/>
+      <div className="abosulte bg-[red] w-[5px] h-[5px] rounded-xl mt-[-20px] "></div>
+      </div>
+      </div>
+
       <div
         className={`${
           show ? " block flex gap-[2rem] md:flex-row flex-col " : "hidden"

@@ -39,7 +39,7 @@ const LandingPage = () => {
 
 <header>
 <nav
-  className={`flex flex-col justify-around items-center md:flex-row     text-white relative md:h-[100px] h-[auto]  bg-gradient-to-r from-green-500/20 to-green-500 via-gray-900 bg-opacity-67 h-16 w-full opacity-90 shadow-md   `}
+  className={`flex flex-col justify-around items-center md:flex-row md:gap-0 gap-3    text-white relative md:h-[100px] h-[auto]  bg-gradient-to-r from-green-500/20 to-green-500 via-gray-900 bg-opacity-67 h-16 w-full opacity-90 shadow-md   `}
 >
   <button
     className={`menu  md:hidden block absolute right-5 top-5`}

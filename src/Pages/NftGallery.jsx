@@ -33,7 +33,7 @@ const NftGallery = () => {
             <Trx />
           </div>
 
-      <div className=" absolute gradient w-[515.236px] h-[615px] top-[8%] right-[20%] "></div>
+      <div className=" absolute gradient w-[515.236px] h-[615px] top-[50%] right-[20%] "></div>
 
         </div>
       </div>

@@ -30,11 +30,7 @@ const SideNav = () => {
       iconImage: galleryIcon,
       linot: "",
     },
-    {
-      id: 4,
-      text: "Trading",
-      iconImage: trnadingIcon,
-    },
+    
     {
       id: 5,
       text: "Profile",
