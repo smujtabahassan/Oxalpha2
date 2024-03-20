@@ -3,7 +3,7 @@ import "../Landing.css";
 
 import { PicCardss } from "../Components/PicCardss";
 import { CounterPopu } from "../Components/CounterPopu";
-import mainImage from "../assets/Hero.png";
+import mainImage from "../assets/hero.png";
 import auditcard from "../assets/Main.svg";
 import cardheadings from "../assets/Key Features.svg";
 import carddesign from "../assets/cards.svg";
