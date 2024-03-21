@@ -135,18 +135,19 @@ export const TokkensCards = () => {
 
 return(
     
-    <div key={i} className='Rightcols relative  flex   md:flex-col flex-row mt-4 justify-start  border border-2  float-end     rounded-xl  px-7 mr-3 hover:bg-gray-500/40 scale-190 transition-all '>
+    <div key={i} className='Rightcols relative  flex   md:flex-col flex-row mt-4 justify-start  border border-2       rounded-xl  px-7 mr-3 hover:bg-gray-500/40 scale-190 transition-all '>
 
 
 <div className='flex   w-auto h-auto '>
     
-<div className=' flex  absolute md:right-[100px]  mt-[-20px] '><img src={Liveimg} className='w-[260px] h-[70px]' alt="liveimg" /></div>
+<div className=' flex  absolute left-1/2 -translate-x-1/2 -top-4 z-10 '><img src={Liveimg} className='w-[260px] ' alt="liveimg" /></div>
+    <div className='relative'>
+    <img src={Mainimg} alt="liveimg" className='w-' />
     
-    <img src={Mainimg} alt="liveimg" />
-    
-    <div className='flex absolute md:top-[161px] top-[350px]  '>
-    <img src={daysleftimg} alt="liveimg" className='w-[220px] h-[45px] ' /></div>
+    <div className='flex absolute bottom-0 left-0  '>
+    <img src={daysleftimg} alt="liveimg" className='w-[120px]' /></div>
 
+    </div>
     </div>
 
 <div className='flex flex-col font-mono  w-auto  md:mt-1 mt-14'>

@@ -10,7 +10,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <div className="text-[#fff] bg-[#000] h-auto">
+      <div className="text-[#fff] bg-[#000] h-auto ">
         <Routes>
           <Route path="/" element={<LandingPage />} /> {/* Corrected path */}
             <Route path="/dashboardHome" element={<DashboardHome />} /> {/* Corrected path */}
