@@ -42,7 +42,7 @@ const LandingPage = () => {
   className={`flex flex-col justify-around items-center md:flex-row md:gap-0 gap-3    text-white relative md:h-[100px] h-[auto]  bg-gradient-to-r from-green-500/20 to-green-500 via-gray-900 bg-opacity-67 h-16 w-full opacity-90 shadow-md   `}
 >
   <button
-    className={`menu  md:hidden block  absolute right-5 top-5`}
+    className={`menu  md:hidden block absolute right-5 top-5 `}
     onClick={() => settoogle(!toogle)}
   >
     {toogle ? <span>&times;</span> : <span>&#9776;</span>}
@@ -111,21 +111,19 @@ const LandingPage = () => {
 <main className="relative w-full  opacity-90">
 <img src={mainImage} alt="here" />
 
-<div className=' absolute sm:left-[30px] left-[10px] md:text-[43px] sm:text-[20px] text-[10px] 2xl:top-[300px] md:top-[100px] sm:top-[100px] top-[20px]  font-medium gap-[20px] flex flex-col h-auto w-auto  md:max-w-[700px]  sm:max-w-[400px] max-w-[270px]'>
+<div className=' absolute sm:left-[30px] left-[10px] md:text-[43px] sm:text-[20px] text-[10px] 2xl:top-[150px] md:top-[100px] sm:top-[100px] top-[20px]  font-medium gap-[20px] flex flex-col h-auto w-auto  md:max-w-[700px]  sm:max-w-[400px] max-w-[270px]'>
   <h1 className=' '>Automate Your Crypto Trading 
   </h1> 
   <h1 className='  '> with <span className='text-green-400'>0Xalpha SNIPER BOT </span></h1> 
 
-  <p className='md:text-[20px] sm:text-[10px] text-[8px]  md:max-w-[700px] sm:max-w-[350px] max-w-[220px] text-[#BEBEBE] font-thin'>OXalpa Sniper Bot automates cryptocurrency trading, executing
+  <p className='sm:py-8 py-0 md:text-[20px] sm:text-[10px] text-[8px]  md:max-w-[700px] sm:max-w-[350px] max-w-[220px] text-[#BEBEBE] font-thin'>OXalpa Sniper Bot automates cryptocurrency trading, executing
 trades based on user-defined settings, making it suitable for both
 experienced and novice traders, ensuring potential profit
 maximization and risk reduction.</p>
 
-{/* 
-// lg:left-[10px] 
- md:left-[49px]  sm:left-[38px]  smm:left-[35px] left-[20px]// */}
+
 <button
-  className=" sm:text-[19px] text-[11px] bg-green-500 shadow-lg shadow-green-500/30  sm:font-bold font-thin  rounded-xl  md:w-[200px] sm:w-[120px] w-[80px] lg:h-[60px] md:h-[40px] sm:h-[30px] h-[30px]   
+  className="  sm:text-[19px] text-[11px] bg-green-500 shadow-lg shadow-green-500/30  sm:font-bold font-thin  rounded-xl  md:w-[200px] sm:w-[120px] w-[80px] lg:h-[60px] md:h-[40px] sm:h-[30px] h-[30px]   
  lg:top-[950px] 
  md:top-[280px]  sm:top-[270px]   top-[130px]   bg-gradient-to-r from-green-600 from-10% via-white-500 to-green-400   transition duration-300 ease-out transform hover:scale-105  "
 >
