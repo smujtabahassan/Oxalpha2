@@ -78,7 +78,7 @@ export const TokkensCards = () => {
         <div className='flex w-[100%] md:flex-row flex-col md:gap-[2rem] gap-[1rem]'>
 
        {cardData.map(({id , image , heading , monkey , monkeyId , amount , bidHigest , bidEth} , index) =>{
-         return   <div className='cards flex flex-col  relative  border md:w-[auto] h-[auto] border-2 rounded-lg gap-[0.5rem] p-2 transition-all ease-linear delay-150 md:hover:scale-105 w-[90%] mx-auto' key={index} >
+         return   <div className='cards flex flex-col  relative  border md:w-[70%] w-[37%]  h-[auto] border-2 rounded-lg gap-[0.5rem] p-2 transition-all ease-linear delay-150 md:hover:scale-105   md:mx-0 sm:mx-auto mx-3 ' key={index} >
 
 
          <div className='flex flex-row items-center justify-around gap-[2rem] '>
@@ -135,7 +135,7 @@ export const TokkensCards = () => {
 
 return(
     
-    <div key={i} className='Rightcols relative  flex   md:flex-col flex-row mt-4 justify-start  border border-2       rounded-xl  px-7 mr-3 hover:bg-gray-500/40 scale-190 transition-all '>
+    <div key={i} className='Rightcols  md:mx-0 sm:mx-auto mx-3 md:w-[100%] sm:w-[80%] w-[40%]  relative  flex   md:flex-col flex-row mt-4 justify-start  border border-2       rounded-xl  px-7 md:mr-5 hover:bg-gray-500/40 scale-190 transition-all '>
 
 
 <div className='flex   w-auto h-auto '>
@@ -144,7 +144,7 @@ return(
     <div className='relative'>
     <img src={Mainimg} alt="liveimg" className='w-' />
     
-    <div className='flex absolute bottom-0 left-0  '>
+    <div className='flex absolute sm:bottom-0 bottom-50 left-0  '>
     <img src={daysleftimg} alt="liveimg" className='w-[120px]' /></div>
 
     </div>

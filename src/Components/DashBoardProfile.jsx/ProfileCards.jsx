@@ -46,7 +46,7 @@ const ProfileCards = () => {
             return (
               <div
                 key={index}
-                className="md:w-[40%] w-[30%]  flex  justify-between py-[1rem] px-[1rem] my-[1rem] transition-all ease-in-out delay-250 items-center cursor-pointer hover:text-[#44DD68] bg-[rgba(0, 0, 0, 0.40)] hover:bg-[#292828]"
+                className="md:w-[50%] w-[20%]  flex  justify-between py-[1rem] px-[1rem] my-[1rem] transition-all ease-in-out delay-250 items-center cursor-pointer hover:text-[#44DD68] bg-[rgba(0, 0, 0, 0.40)] hover:bg-[#292828]"
                 style={{
                   borderRadius: "16px",
                   border: "2px solid var(--stroke-button, #44DD68)",

@@ -14,7 +14,7 @@ import { SideCardRight } from '../Components/SideCardRight';
 
 
 export const Tokkens = () => {
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
 
     function toggle() {
       setShow(!show);
@@ -24,6 +24,10 @@ export const Tokkens = () => {
 <DashBoarNav text={"Tokens"} paragraph={"Updated on 23 may 2023"} />
       <div className="flex  gap-[1rem] py-[1rem]  ">
         <div className={`${show ? "block " : "hidden"}`}>
+          <SideNav />
+        </div>
+
+        <div className="md:block hidden">
           <SideNav />
         </div>
 

@@ -149,7 +149,7 @@ export const NftTrending = () => {
                   <div className="relative flex flex-row mt-[-20px] gap-3 ">
                    
                     <div className="text-sm indent-[75px] mt-[-20px] text-gray-400">{v.desc}</div>
-                    <div className="w-[12px] absolute top-[-16px] right-[10px]"><img src={v.cryptocoin} alt="" /></div>
+                    <div className="w-[12px] absolute top-[-10px] right-[10px]"><img src={v.cryptocoin} alt="" /></div>
                     <div className=" mt-[-19px]">{v.number}</div>
 
                   </div>

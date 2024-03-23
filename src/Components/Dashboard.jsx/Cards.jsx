@@ -132,7 +132,7 @@ const Cards = () => {
   ];
   return (
     <>
-      <div className="flex md:flex-row flex-col gap-[1rem]">
+      <div className="flex lg:flex-row flex-col gap-[2rem]">
         <div className=" md:grid-cols-8 col-span-12   w-[80%] ">
           <div className=" flex gap-[3rem] md:flex-row flex-col  ">
             {TrandingCard.map(({ id, image, text, lists }) => {
@@ -198,7 +198,7 @@ const Cards = () => {
             })}
           </div>
         </div>
-        <div className=" md:w-[50%] w-auto rounded-[20px] md:px-[1.5rem] px-[1rem] py-[0.5rem] bg-[#000] shadow-2xl hover:shadow border-[#2DC24E] border-[1px] cursor-pointer transition-all ease-linear delay-150 hover:bg-[#141414]   md:col-span-3 col-span-12 ">
+        <div className="   md:w-[50%] w-[70%] rounded-[20px] md:px-[1.5rem] px-[1rem] py-[0.5rem] bg-[#000] shadow-2xl hover:shadow border-[#2DC24E] border-[1px] cursor-pointer transition-all ease-linear delay-150 hover:bg-[#141414]   md:col-span-3 col-span-12 ">
           {History.map(({ id, heading, seeAll, trxHistory }, index) => {
             return (
               <div key={index}>

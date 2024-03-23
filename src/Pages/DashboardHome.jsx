@@ -4,7 +4,7 @@ import { MdMenu } from "react-icons/md";
 import Layout from "../Layout";
 
 const DashboardHome = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   function change() {
     setShow(!show);
@@ -20,21 +20,28 @@ const DashboardHome = () => {
           <SideNav />
           
         </div>
-        <div className="w-[100%]">
+
+        <div className=" md:block hidden">
+          <SideNav />
+          
+        </div>
+
+
+        <div className="w-[80%] md:none ml-[10px]">
           <Cards />
-          <div className="   ">
-            <Trx />
+          <div className="">
+            < Trx className="md:w-[80%] w-[30%]" />
           </div>
         </div>
       </div>
       <div
-        className=" absolute   right-5  top-[3%] text-[#fff] text-[24px] md:hidden block "
+        className=" absolute   right-5  top-[1%] text-[#fff] text-[24px] md:hidden block "
         onClick={change}
       >
         {!show ? (
-          <MdMenu />
+          <MdMenu className="" />
         ) : (
-          <p className="text-[24px] fixed right-[13%] top-[13%]">{"X"}</p>
+          <p className="text-[24px] fixed right-[13%] top-[2%]">{"X"}</p>
         )}
       </div>
     </div>

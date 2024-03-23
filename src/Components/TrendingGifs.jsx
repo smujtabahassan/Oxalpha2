@@ -193,10 +193,10 @@ const SideCard=[{
     return (
 <div>
 
-<div className='mt-[20px] text-[36px] font-sans font-semibold'><h1>Trending NFTS</h1></div>
+<div className='mt-[20px] text-[36px]  md:mx-0 sm:mx-auto mx-1 font-sans font-semibold'><h1>Trending NFTS</h1></div>
 
 
-        <div className='flex w-[100%]  md:flex-row flex-col md:gap-[2rem] gap-[6rem] mt-[20px] px-[10px] md:ml-auto ml-[100px]'>
+        <div className='flex md:w-[100%] sm:w-[50%]  w-[40%] md:flex-row flex-col md:gap-[2rem] gap-[6rem] mt-[20px] px-[10px]   md:mx-0 sm:mx-auto mx-1 '>
 
 
        {TrendingGif.map(({id , img,image, name ,email , sale , ethicon, eth , amountdollar} , index) =>{
@@ -298,7 +298,7 @@ const SideCard=[{
 
 
 
-          <div className='Rightcols  p-4 flex flex-col  font-serif   w-[750px] h-auto md:max-w-[328px] max-w-[533px] rounded-xl  relative float-end border border-2   rounded-xl  px-3 backdrop-blur-xl hover:bg-gray-500/40 scale-190 transition-all'>
+          <div className='Rightcols ml-2  p-4 flex flex-col  font-serif   md:w-[750px] sm:w-[350px] w-[250px] h-auto md:max-w-[328px] max-w-[533px] rounded-xl  relative border border-2   rounded-xl  px-3 backdrop-blur-xl hover:bg-gray-500/40 scale-190 transition-all'>
 
 <div className='flex flex-row justify-between '>
 <h1 className='text-[24px] font-semibold py-2'>Top Creators</h1>
@@ -359,9 +359,9 @@ return(
         </div>
 
 
-        <div className="Rare  hover:bg-slate-800/30 font-sans relative top-[57px] sm:w-[645px] w-[405px]   lg:none ml-[10px]  sm:h-[269px] h-[369px]  border-2 border-green-400 rounded-2xl px-11 py-11 font-medium 	bg-black ">
+        <div className="Rare  hover:bg-slate-800/30 font-sans relative top-[57px] sm:w-[645px] w-[265px]   lg:none ml-[10px]  sm:h-[269px] h-[569px]  border-2 border-green-400 rounded-2xl px-11 py-11 font-medium 	bg-black ">
 
-          <div className=" flex md:flex-row flex-col justify-between items-center align-middle sm:w-[485px] w-[320px]">
+          <div className=" flex md:flex-row flex-col justify-between sm:items-center items-start align-middle sm:w-[485px] w-[320px]">
 
             <div>
               <h2 className=" text-[24px] max-w-[250.726px]  ">
@@ -385,7 +385,7 @@ return(
 
 
 
-          <div className="coins absolute grid sm:grid-cols-3 grid-cols-2 sm:gap-2  gap-0 w-[auto]  sm:left-[30px] left-[0px]">
+          <div className="coins absolute grid sm:grid-cols-3 grid-cols-1 sm:gap-2  gap-0 w-[auto]  sm:left-[30px] left-[0px]">
 
 
 
