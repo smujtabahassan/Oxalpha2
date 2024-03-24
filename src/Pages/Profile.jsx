@@ -4,22 +4,26 @@ import { Cards, DashBoarNav, SideNav, Trx } from "../Components/index";
 import { MdMenu } from "react-icons/md";
 
 const Profile = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   function toggle() {
     setShow(!show);
   }
   return (
     <div className="relative overflow-x-auto ">
-      <DashBoarNav text={"Profile"} paragraph={"Updated on 23 may 2023"} />
+      <DashBoarNav text={"Profile"} paragraph={"Updated on 23 may 2023"}/>
       <div className="flex gap-[1rem] py-[1rem]  ">
-        <div className={`${show ? "block " : "hidden"}`}>
+      <div className={`${show ? "block" : "hidden"}`}>
           <SideNav />
         </div>
-        <div className="">
-          <ProfileHeader />
-          <ProfileCards />
-          <div className="   ">
+
+        <div className="md:block hidden">
+          <SideNav />
+        </div>
+       <div className="overflow-x-auto ">
+          <ProfileHeader className=""/>
+          <ProfileCards className="" />
+          <div className=" max-w-[100%]">
             <Trx />
           </div>
         </div>

@@ -11,7 +11,7 @@ import { MdMenu } from "react-icons/md";
 
 
 const NftGallery = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   function toggle() {
     setShow(!show);
@@ -23,9 +23,16 @@ const NftGallery = () => {
         <div className={`${show ? "block " : "hidden"}`}>
           <SideNav />
         </div>
+   
+        <div className= "md:block  hidden">
+          <SideNav />
+        </div>
+   
+   
+   
         <div className="overflow-x-auto ">
           <GalleryCards />
-          <div className="trendingnft ">
+          <div className="trendingnft  ">
             <NftTrending />
           </div>
           <br />
@@ -38,7 +45,7 @@ const NftGallery = () => {
         </div>
       </div>
       <div
-        className=" absolute   right-5  top-[5%] text-[#fff] text-[24px] md:hidden block "
+        className=" absolute   right-5  top-[1%] text-[#fff] text-[24px] md:hidden block "
         onClick={toggle}
       >
         {!show ? (

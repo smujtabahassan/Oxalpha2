@@ -135,14 +135,14 @@ export const TokkensCards = () => {
 
 return(
     
-    <div key={i} className='Rightcols  md:mx-0 sm:mx-auto mx-3 md:w-[100%] sm:w-[80%] w-[40%]  relative  flex   md:flex-col flex-row mt-4 justify-start  border border-2       rounded-xl  px-7 md:mr-5 hover:bg-gray-500/40 scale-190 transition-all '>
+    <div key={i} className='Rightcols  md:mx-0 sm:mx-auto mx-3 md:w-[100%] sm:w-[80%] w-[60%]  relative  flex   md:flex-col flex-row mt-4 justify-start  border border-2       rounded-xl  px-7 md:mr-5 hover:bg-gray-500/40 scale-190 transition-all '>
 
 
 <div className='flex   w-auto h-auto '>
     
 <div className=' flex  absolute left-1/2 -translate-x-1/2 -top-4 z-10 '><img src={Liveimg} className='w-[260px] ' alt="liveimg" /></div>
     <div className='relative'>
-    <img src={Mainimg} alt="liveimg" className='w-' />
+    <img src={Mainimg} alt="liveimg" className='w-[100%]' />
     
     <div className='flex absolute sm:bottom-0 bottom-50 left-0  '>
     <img src={daysleftimg} alt="liveimg" className='w-[120px]' /></div>

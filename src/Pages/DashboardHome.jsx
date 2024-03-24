@@ -27,7 +27,7 @@ const DashboardHome = () => {
         </div>
 
 
-        <div className="w-[80%] md:none ml-[10px]">
+        <div className="w-[80%] md:none ml-[10px] overflow-x-auto">
           <Cards />
           <div className="">
             < Trx className="md:w-[80%] w-[30%]" />

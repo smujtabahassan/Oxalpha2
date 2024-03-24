@@ -17,18 +17,23 @@ const Porfolio = () => {
     setShow(!show);
   }
   return (
-    <div className="relative  ">
+    <div className="relative overflow-x-auto  ">
       <DashBoarNav text={"Portfolio"} paragraph={"Updated on 23 may 2023"} />
-      <div className="flex gap-[1rem] py-[1rem] md:flex-row flex-col bg-[#191919]  ">
+      <div className="flex gap-[1rem] py-[1rem] flex-row  bg-[#191919]  ">
         <div className={`${show ? "block" : "hidden"}`}>
           <SideNav />
         </div>
-        <div className="   md:px-[0rem] px-[1rem] w-[100%] ">
+
+        <div className="md:block hidden">
+          <SideNav />
+        </div>
+
+        <div className="   md:px-[0rem] px-[1rem] w-[80%] overflow-x-auto  ">
           <BalanceTrack/>
           {/* <Chart /> */}
           {/* <AnalyticCards /> */}
 
-          <div className="   ">
+          <div className="  w-[100%]  ">
             <Status trxstatus={"Your holdings"}/>
             <Trx />
           </div>

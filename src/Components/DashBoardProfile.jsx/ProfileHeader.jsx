@@ -58,7 +58,7 @@ const ProfileHeader = () => {
       </div>
 
       <div className=" absolute gradient w-[294.236px] h-[30px] top-[100%] left-[10%] "></div>
-      <div className=" absolute gradient w-[615.236px] h-[615px] md:top-[10%] bottom-[10%] right-[0%] "></div> 
+      <div className=" absolute gradient w-[615.236px] h-[315px] md:top-[10%] bottom-[10%] right-[10%] "></div> 
     </div>
   );
 };
