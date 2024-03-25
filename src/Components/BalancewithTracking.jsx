@@ -33,7 +33,7 @@ const BalancewithTracking = () => {
       
       <div className="flex flex-col gap-[0.5rem] ">
         <h2 className="text-[#E1E1E1] text-[12px]">Current balance</h2>
-        <h2 className="text-[28px] font-semibold">$2,77,308.00</h2>
+        <h2 className="sm:text-[28px] text-[16px] font-semibold">$2,77,308.00</h2>
         <p className="text-[12px]  text-[#F92C2C]">
           -$1200.78 (-1.89%) <span className="text-[#fff] mx-2">24H</span>
         </p>
@@ -42,9 +42,9 @@ const BalancewithTracking = () => {
 <div className="flex sm:flex-row flex-col gap-3 ">
 
 <div className="flex relative  gap-4"><BiEditAlt className="absolute top-[15px] left-3"/>
-<Btn  text={"Edit"}  style={"w-[90px] h-[50px]"}/></div>
+<Btn  text={"Edit"}  style={"sm:w-[90px] w-[80px] h-[50px]"}/></div>
 
-        <Btn text={"+Add transaction"} style={"w-[175px] h-[50px] bg-green-500 text-[20px] text-black font-semibold"} />
+        <Btn text={"+Add transaction"} style={"sm:w-[175px] w-[100px] h-[50px] bg-green-500 sm:text-[20px] text-[10px] text-black font-semibold"} />
      
       </div>
 
@@ -55,12 +55,12 @@ const BalancewithTracking = () => {
         {Profits.map(({ id, caption, amount, color, rotate }) => {
           return (
             <div className="flex gap-[0.5rem] flex-col" key={id}>
-              <p className={`md:text-[12px] text-[10px] text-[#E1E1E1] `}>
+              <p className={`md:text-[12px] sm:text-[10px] text-[8px] text-[#E1E1E1] `}>
                 {caption}
               </p>
-              <p className={`${color} flex items-center text-[12px] `}>
+              <p className={`${color} flex items-center sm:text-[12px] text-[8px] `}>
                 {" "}
-                <IoMdArrowDropup className={`text-[20px] ${rotate}`} />
+                <IoMdArrowDropup className={`sm:text-[20px] text-[12px] ${rotate}`} />
                 {amount}
               </p>
             </div>
@@ -77,7 +77,7 @@ const BalancewithTracking = () => {
         <Btn text={"Statistics"} style={"w-[150px] rounded-[30px]"} />
       </div>
 <div className="flex mt-[20px] ">
-<img src={Trackline} alt="" className="left-[-10px]  xl:max-w-[1200px] lg:max-w-[700px] md:max-w-[450px] sm:max-w-[340px] max-w-[240px] w-auto"/>
+<img src={Trackline} alt="" className="left-[-10px]  xl:max-w-[1200px] lg:max-w-[700px] md:max-w-[450px] sm:max-w-[540px] max-w-[270px] w-auto"/>
 </div> 
     </div>
   );
