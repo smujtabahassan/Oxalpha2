@@ -133,7 +133,7 @@ const Cards = () => {
   return (
     <>
       <div className="flex lg:flex-row flex-col gap-[2rem]">
-        <div className=" md:grid-cols-8 col-span-12   w-[80%] ">
+        <div className=" md:grid-cols-8 col-span-12   w-[90%] ">
           <div className=" flex gap-[3rem] md:flex-row flex-col  ">
             {TrandingCard.map(({ id, image, text, lists }) => {
               return (
@@ -161,12 +161,12 @@ const Cards = () => {
                               {index + 1}
                             </li>
                             <li>
-                              <img src={items.img} alt="" />
+                              <img src={items.img} alt=""  className="w-[90%]"/>
                             </li>
-                            <li> {items.text}</li>
-                            <li className="text-[#A1A1A1]">{items.currency}</li>
+                            <li className="sm:text-[15px] text-[8px]"> {items.text}</li>
+                            <li className="text-[#A1A1A1] sm:text-[13px] text-[8px]">{items.currency}</li>
                           </ul>
-                          <li className=" list-none my-auto   ">
+                          <li className=" list-none my-auto sm:text-[15px] text-[6px]">
                             {items.progress}
                           </li>
                         </div>
@@ -203,7 +203,7 @@ const Cards = () => {
             return (
               <div key={index}>
                 <div className="flex  justify-between my-[1.5rem] ">
-                  <h2 className=" md:text-[24px] text-[18px] font-semibold">
+                  <h2 className=" md:text-[24px] text-[18px]  font-semibold">
                     {heading}
                   </h2>
                   <p className="text-green-700"> {seeAll}</p>
@@ -224,7 +224,7 @@ const Cards = () => {
                               <img src={img} alt="" />
                             </div>
                             <div>
-                              <h2 className="md:text-[22px] text-[16px] font-semibold">
+                              <h2 className="md:text-[22px] sm:text-[16px] text-[10px] font-semibold">
                                 {heading}{" "}
                                 <span className="md:text-[14px] text-[12px] text-green-400">
                                   {headingSpan}

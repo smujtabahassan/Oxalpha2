@@ -28,7 +28,7 @@ const Porfolio = () => {
           <SideNav />
         </div>
 
-        <div className="   md:px-[0rem] px-[1rem] w-[80%] overflow-x-auto  ">
+        <div className="   md:px-[0rem] px-[1rem] w-[90%] overflow-x-auto  ">
           <BalanceTrack/>
           {/* <Chart /> */}
           {/* <AnalyticCards /> */}

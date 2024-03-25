@@ -28,7 +28,7 @@ const History = () => {
         <div className="md:block hidden">
           <SideNav />
         </div>
-        <div className="  md:px-[0rem] px-[1rem] w-[70%] ">
+        <div className="  md:px-[0rem] px-[1rem] w-[90%] overflow-x-auto   ">
           <Balance />
 
           <div className="   ">

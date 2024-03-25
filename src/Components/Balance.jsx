@@ -29,7 +29,7 @@ const Balance = () => {
   return (
     <div className="py-[2rem] overflow-x-auto  ">
     
-     <div className=" flex flex-row justify-between">
+     <div className=" flex flex-row justify-between ">
       
       <div className="flex flex-col gap-[0.5rem] ">
         <h2 className="text-[#E1E1E1] text-[12px]">Current balance</h2>
@@ -43,16 +43,16 @@ const Balance = () => {
 
       </div>
       {/* Profits data is here */}
-      <div className="flex gap-[2rem] py-[2rem]">
+      <div className="flex gap-[2rem] py-[2rem] ">
         {Profits.map(({ id, caption, amount, color, rotate }) => {
           return (
             <div className="flex gap-[0.5rem] flex-col" key={id}>
-              <p className={`md:text-[12px] text-[10px] text-[#E1E1E1] `}>
+              <p className={`md:text-[12px] text-[8px] text-[#E1E1E1] `}>
                 {caption}
               </p>
-              <p className={`${color} flex items-center text-[12px] `}>
+              <p className={`${color} flex items-center sm:text-[12px] text-[8px] `}>
                 {" "}
-                <IoMdArrowDropup className={`text-[20px] ${rotate}`} />
+                <IoMdArrowDropup className={`sm:text-[20px] text-[10px] ${rotate}`} />
                 {amount}
               </p>
             </div>
@@ -60,13 +60,13 @@ const Balance = () => {
         })}
       </div>
       {/* buttons is here */}
-      <div className="flex md:gap-[1rem] gap-[0.5rem]">
-        <Btn text={"Chart"} style={"w-[150px] rounded-[30px]"} />
+      <div className="flex md:gap-[1rem] gap-[0.5rem] ">
+        <Btn text={"Chart"} style={"sm:w-[150px] w-[100px] rounded-[30px]"} />
         <Btn
           text={"Allocation"}
-          style={"w-[150px] bg-green-600 hover:text-[#fff] rounded-[30px]"}
+          style={"sm:w-[150px] w-[100px] bg-green-600 hover:text-[#fff] rounded-[30px]"}
         />
-        <Btn text={"Statistics"} style={"w-[150px] rounded-[30px]"} />
+        <Btn text={"Statistics"} style={"sm:w-[150px] w-[100px] rounded-[30px]"} />
       </div>
 
     </div>
